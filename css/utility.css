@@ -1,0 +1,75 @@
+.border{
+    border: 2px solid red;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 6px;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 15px;
+}
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding: 12px;
+}
+.f-1{
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Webkit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #333; /* Dark background */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Darker scrollbar handle */
+}
+
+/* Firefox */
+/* Note: Firefox supports a limited version of scrollbar styling using only the -moz prefix */
+/* The following properties are supported: scrollbar-width and scrollbar-color */
+/* For more advanced styling, consider using a library like OverlayScrollbars */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #333; /* Darker scrollbar handle and track */
+}
+
+/* Internet Explorer and Edge */
+/* Note: Edge Legacy (EdgeHTML-based) supports scrollbar styling using -ms prefix */
+/* The following properties are supported: -ms-overflow-style */
+/* For more advanced styling, consider using a library like OverlayScrollbars */
+* {
+    -ms-overflow-style: none; /* Hide the scrollbar */
+}
+
+*::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
