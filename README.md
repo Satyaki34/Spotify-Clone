@@ -21,6 +21,10 @@ A simple web player inspired by Spotify, allowing users to browse playlists and 
 
 ![Spotify Clone Preview](preview.png)
 
+## Demo
+
+Check out the live demo [here](https://emo.freewebhostmost.com/).
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps:
